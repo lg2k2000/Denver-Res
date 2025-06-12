@@ -1,0 +1,26 @@
+name,category,rank,location,city,rating,status,hours,michelin,james_beard,notes
+Blue Pan Pizza,Pizza,1,3509 E 12th Ave & 3934 W 32nd Ave,Denver,4.6,Open,"Mon-Thu: 11AM-9PM, Fri-Sat: 11AM-10PM, Sun: 11AM-9PM",False,False,"Detroit-style pizza, multiple locations"
+Audrey Jane's Pizza Garage,Pizza,2,2675 13th St,Boulder,4.0,Open,"Tue-Sat: 11AM-8PM, Sun: 12PM-8PM, Mon: Closed",False,False,"Family-owned, large 16"" & 20"" pizzas"
+Pizzeria Locale,Pizza,3,Various,Denver,4.2,Open,Varies by location,False,False,Neapolitan-style pizza
+Benzina,Pizza,4,Various,Denver,4.3,Open,Varies by location,False,False,Wood-fired pizza
+Cart-Driver Pizza,Pizza,5,Various,Denver,4.1,Open,Varies by location,False,False,Roman-style pizza
+Tom's Starlight,Burgers & Sandwiches,1,601 E Colfax Ave,Denver,4.5,Open,"Tue-Thu: 4PM-12AM, Fri: 4PM-1AM, Sat-Sun: Varies",False,False,Historic diner with large patio
+Hopdoddy,Burgers & Sandwiches,2,Various,Denver,4.3,Open,Varies by location,False,False,Gourmet burgers
+Snarfburger,Burgers & Sandwiches,3,Various,Boulder,4.4,Open,Varies by location,False,False,Local Boulder favorite
+Hillstone,New American,1,303 Josephine St,Denver,4.5,Open,Daily: 11:30AM-10PM,False,False,"Upscale American, outdoor patio"
+The Wolf's Tailor,New American,2,4058 Tejon St,Denver,4.8,Open,Tue-Sun: 5PM-8:30PM,True,False,"Michelin starred, Green Star, Contemporary cuisine"
+Tavernetta,New American,3,1889 Sixteenth St,Denver,4.6,Open,"Mon-Fri: 11:30AM-2PM & 5PM-10PM, Sat-Sun: 3PM-10PM",Bib Gourmand,True,"Michelin Bib Gourmand, Italian-influenced"
+Post Oak BBQ,BBQ,1,4000 Tennyson Street,Denver,4.2,Open,Varies,False,False,Texas-style BBQ
+Sushi By Scratch Restaurants,Japanese,1,1441 Larimer St,Denver,5.0,Open,"Wed-Sun: 3 seatings at 5PM, 7:15PM, 9:30PM",False,False,"Omakase, $195/person, Michelin-starred chef"
+Uchi Denver,Japanese,2,S*Park,Denver,4.5,Open,Varies,False,True,James Beard Award-winning
+Aloy Modern Thai,Thai,1,LoDo,Denver,4.3,Open,Varies,False,False,"Farm-to-table, opened 2016"
+Dan Da,Vietnamese,1,9945 East Colfax Avenue,Denver,4.7,Open,"Wed-Sat: 10AM-8PM, Sun: 11AM-8PM",False,False,"New 2024, former Savory Vietnam chef"
+Alma Fonda Fina,Mexican,1,2556 15th St,Denver,4.7,Open,"Mon-Thu: 2PM-10PM, Fri: 2PM-11PM, Sat: 4PM-11PM, Sun: 4PM-10PM",True,Semifinalist,"Michelin starred, Chef Johnny Curiel"
+Guard and Grace Modern Steakhouse,Steakhouse,1,1801 California Street,Denver,4.5,Open,Varies,Recommended,False,"Michelin Guide-Recommended, No. 47 Best Steak World 2024"
+Champagne Tiger,French,1,601 E Colfax Ave,Denver,4.7,Open,"Wed-Thu: 4:30PM-10PM, Fri: 11AM-3PM & 4:30PM-11PM, Sat: 10AM-11PM, Sun: 10AM-8PM",False,False,"French American diner, drag brunch"
+Chez Maggy,French,3,Thompson Hotel,Denver,4.1,Open,Varies,True,False,Michelin-starred Chef Ludo Lefebvre
+Lucy Ethiopian,Ethiopian,1,7401 E Colfax Ave,Denver,4.4,Open,Varies,False,False,"Authentic Ethiopian, local favorite"
+Mesob Ethiopian,Ethiopian,2,1422 Poplar St,Denver,4.3,Open,Mon-Sun: 4PM-11PM,False,False,"Family-owned since 2006, vegan options"
+Frasca Food and Wine,Italian,1,1738 Pearl St,Boulder,4.4,Open,"Sun-Thu: 5PM-8PM, Fri-Sat: 5PM-9PM",True,True,"Michelin starred, James Beard Award-winning, Friuli region focus"
+Osaka Ramen,Japanese,0,2611 Walnut St,Denver,4.0,CLOSED,"Closed Feb 23, 2025",False,False,Closed after 10 years due to high costs
+Grabowski's Pizzeria,Pizza,15,3350 Brighton Blvd,Denver,3.8,CLOSED,Closed Feb 2025,False,False,Closed after 5 years

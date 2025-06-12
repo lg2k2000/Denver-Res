@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denver Metro Restaurant Dashboard 2025</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="dashboard-header">
+            <h1>Denver Metro Restaurant Dashboard 2025</h1>
+            <p class="subtitle">Complete Rankings with Verified Hours & Status</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">54</div>
+                    <div class="stat-label">Total Restaurants</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">52</div>
+                    <div class="stat-label">Currently Open</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">6</div>
+                    <div class="stat-label">Michelin Winners</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">James Beard Winners</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar">
+            <div class="filter-row">
+                <select id="categoryFilter" class="form-control">
+                    <option value="">All Categories</option>
+                </select>
+                
+                <select id="cityFilter" class="form-control">
+                    <option value="">All Cities</option>
+                    <option value="Denver">Denver</option>
+                    <option value="Boulder">Boulder</option>
+                </select>
+                
+                <select id="statusFilter" class="form-control">
+                    <option value="">All Status</option>
+                    <option value="Open">Open</option>
+                    <option value="CLOSED">Closed</option>
+                </select>
+                
+                <select id="awardsFilter" class="form-control">
+                    <option value="">All Awards</option>
+                    <option value="michelin">Michelin Starred</option>
+                    <option value="james_beard">James Beard</option>
+                </select>
+                
+                <input type="text" id="searchInput" class="form-control" placeholder="Search restaurants...">
+            </div>
+            
+            <div class="sort-row">
+                <label>Sort by:</label>
+                <select id="sortSelect" class="form-control">
+                    <option value="rank">Rank</option>
+                    <option value="rating">Rating</option>
+                    <option value="name">Alphabetical</option>
+                    <option value="city">City</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Top Rankings Section -->
+        <section class="top-rankings">
+            <h2>Top #1 Restaurants by Category</h2>
+            <div class="top-restaurants-grid" id="topRestaurants">
+                <!-- Will be populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Main Dashboard Layout -->
+        <div class="dashboard-grid">
+            <!-- Left Side: Restaurant List -->
+            <div class="restaurant-list">
+                <div class="section-header">
+                    <h3>All Restaurants</h3>
+                    <span id="resultsCount" class="results-count">54 results</span>
+                </div>
+                <div id="restaurantCards" class="restaurant-cards">
+                    <!-- Restaurant cards will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Right Side: Map & Statistics -->
+            <div class="sidebar">
+                <div class="card">
+                    <div class="card__body">
+                        <h4>Restaurant Distribution</h4>
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1749681334/pplx_code_interpreter/51691518_pcwvzg.jpg" alt="Restaurant Distribution by Category" class="chart-image">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card__body">
+                        <h4>City Distribution</h4>
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1749681453/pplx_code_interpreter/60c6f48b_pt1auw.jpg" alt="Restaurant Distribution by City" class="chart-image">
+                    </div>
+                </div>
+
+                <div class="card michelin-winners">
+                    <div class="card__body">
+                        <h4>🌟 Award Winners</h4>
+                        <div id="awardWinners">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card closed-alert">
+                    <div class="card__body">
+                        <h4>⚠️ Recently Closed</h4>
+                        <div id="closedRestaurants">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Restaurant Detail Modal -->
+        <div id="restaurantModal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div id="modalContent">
+                    <!-- Modal content will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="dashboard-footer">
+        <p>Data last updated: June 2025 • Total verified restaurants: 54</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="js/modal-fixes.js"></script>
+</body>
+</html>

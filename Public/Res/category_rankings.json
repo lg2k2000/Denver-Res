@@ -1,0 +1,360 @@
+{
+  "Pizza": {
+    "restaurant": [
+      "Blue Pan Pizza",
+      "Audrey Jane's Pizza Garage",
+      "Pizzeria Locale",
+      "Benzina",
+      "Cart-Driver Pizza",
+      "Marco's Coal Fired | Ballpark",
+      "Barchetta",
+      "Hops and Pie",
+      "Redeemer Pizza",
+      "Kaos Pizzeria"
+    ],
+    "rank": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "rating": [
+      4.6,
+      4.0,
+      4.2,
+      4.3,
+      4.1,
+      4.2,
+      4.3,
+      4.1,
+      4.0,
+      3.9
+    ],
+    "city": [
+      "Denver",
+      "Boulder",
+      "Denver",
+      "Denver",
+      "Denver",
+      "Denver",
+      "Boulder",
+      "Denver",
+      "Denver",
+      "Denver"
+    ]
+  },
+  "Burgers & Sandwiches": {
+    "restaurant": [
+      "Tom's Starlight",
+      "Hopdoddy",
+      "Snarfburger",
+      "Arty's",
+      "Larkburger",
+      "Mountain Sun"
+    ],
+    "rank": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8
+    ],
+    "rating": [
+      4.5,
+      4.3,
+      4.4,
+      4.2,
+      4.0,
+      4.3
+    ],
+    "city": [
+      "Denver",
+      "Denver",
+      "Boulder",
+      "Denver",
+      "Denver",
+      "Boulder"
+    ]
+  },
+  "New American": {
+    "restaurant": [
+      "Hillstone",
+      "The Wolf's Tailor",
+      "The Kitchen",
+      "Tavernetta"
+    ],
+    "rank": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "rating": [
+      4.5,
+      4.8,
+      4.5,
+      4.6
+    ],
+    "city": [
+      "Denver",
+      "Denver",
+      "Boulder",
+      "Denver"
+    ]
+  },
+  "BBQ": {
+    "restaurant": [
+      "Post Oak BBQ"
+    ],
+    "rank": [
+      1
+    ],
+    "rating": [
+      4.2
+    ],
+    "city": [
+      "Denver"
+    ]
+  },
+  "Japanese": {
+    "restaurant": [
+      "Sushi By Scratch Restaurants",
+      "Uchi Denver",
+      "Tatsu Izakaya",
+      "Sushi Den"
+    ],
+    "rank": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "rating": [
+      5.0,
+      4.5,
+      4.5,
+      4.4
+    ],
+    "city": [
+      "Denver",
+      "Denver",
+      "Denver",
+      "Denver"
+    ]
+  },
+  "Thai": {
+    "restaurant": [
+      "Aloy Modern Thai",
+      "Uncle",
+      "Daughter Thai"
+    ],
+    "rank": [
+      1,
+      2,
+      3
+    ],
+    "rating": [
+      4.3,
+      4.2,
+      4.1
+    ],
+    "city": [
+      "Denver",
+      "Denver",
+      "Denver"
+    ]
+  },
+  "Vietnamese": {
+    "restaurant": [
+      "Dan Da",
+      "Pho Haus"
+    ],
+    "rank": [
+      1,
+      2
+    ],
+    "rating": [
+      4.7,
+      4.6
+    ],
+    "city": [
+      "Denver",
+      "Denver"
+    ]
+  },
+  "Mexican": {
+    "restaurant": [
+      "Alma Fonda Fina",
+      "D'Corazon",
+      "Taqueria La Familia",
+      "Kike's Red Tacos"
+    ],
+    "rank": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "rating": [
+      4.7,
+      4.3,
+      4.7,
+      4.4
+    ],
+    "city": [
+      "Denver",
+      "Denver",
+      "Denver",
+      "Denver"
+    ]
+  },
+  "Steakhouse": {
+    "restaurant": [
+      "Guard and Grace Modern Steakhouse",
+      "The Capital Grille",
+      "Urban Farmer Denver"
+    ],
+    "rank": [
+      1,
+      2,
+      3
+    ],
+    "rating": [
+      4.5,
+      4.4,
+      4.0
+    ],
+    "city": [
+      "Denver",
+      "Denver",
+      "Denver"
+    ]
+  },
+  "French": {
+    "restaurant": [
+      "Champagne Tiger",
+      "Bistro Barbes",
+      "Chez Maggy"
+    ],
+    "rank": [
+      1,
+      2,
+      3
+    ],
+    "rating": [
+      4.7,
+      4.4,
+      4.1
+    ],
+    "city": [
+      "Denver",
+      "Denver",
+      "Denver"
+    ]
+  },
+  "Ethiopian": {
+    "restaurant": [
+      "Lucy Ethiopian",
+      "Mesob Ethiopian"
+    ],
+    "rank": [
+      1,
+      2
+    ],
+    "rating": [
+      4.4,
+      4.3
+    ],
+    "city": [
+      "Denver",
+      "Denver"
+    ]
+  },
+  "Italian": {
+    "restaurant": [
+      "Frasca Food and Wine",
+      "Barolo Grill",
+      "Osteria Marco"
+    ],
+    "rank": [
+      1,
+      2,
+      3
+    ],
+    "rating": [
+      4.4,
+      4.8,
+      4.6
+    ],
+    "city": [
+      "Boulder",
+      "Denver",
+      "Denver"
+    ]
+  },
+  "Chinese": {
+    "restaurant": [
+      "Hong Kong Station 2"
+    ],
+    "rank": [
+      1
+    ],
+    "rating": [
+      4.7
+    ],
+    "city": [
+      "Denver"
+    ]
+  },
+  "Brunch": {
+    "restaurant": [
+      "Safta's",
+      "Annette",
+      "Snooze"
+    ],
+    "rank": [
+      1,
+      2,
+      10
+    ],
+    "rating": [
+      4.6,
+      4.5,
+      4.2
+    ],
+    "city": [
+      "Denver",
+      "Denver",
+      "Denver"
+    ]
+  },
+  "Date Night": {
+    "restaurant": [
+      "El Five",
+      "Linger",
+      "Bruto"
+    ],
+    "rank": [
+      1,
+      2,
+      3
+    ],
+    "rating": [
+      4.4,
+      4.3,
+      4.7
+    ],
+    "city": [
+      "Denver",
+      "Denver",
+      "Denver"
+    ]
+  }
+}

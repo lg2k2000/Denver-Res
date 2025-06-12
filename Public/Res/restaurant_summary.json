@@ -1,0 +1,17 @@
+{
+  "total": 54,
+  "verified_open": 52,
+  "verified_closed": 2,
+  "award_winners": 54,
+  "top_categories": {
+    "Pizza": 11,
+    "Burgers & Sandwiches": 6,
+    "Japanese": 5,
+    "New American": 4,
+    "Mexican": 4
+  },
+  "top_cities": {
+    "Denver": 48,
+    "Boulder": 6
+  }
+}
