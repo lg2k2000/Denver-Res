@@ -1,33 +1,20 @@
 // Restaurant data
-const restaurantData = {
-  "restaurants": [
-    {"name": "Blue Pan Pizza", "category": "Pizza", "rank": 1, "location": "3509 E 12th Ave & 3934 W 32nd Ave", "city": "Denver", "rating": 4.6, "status": "Open", "hours": "Mon-Thu: 11AM-9PM, Fri-Sat: 11AM-10PM, Sun: 11AM-9PM", "michelin": false, "james_beard": false, "notes": "Detroit-style pizza, multiple locations"},
-    {"name": "Audrey Jane's Pizza Garage", "category": "Pizza", "rank": 2, "location": "2675 13th St", "city": "Boulder", "rating": 4.0, "status": "Open", "hours": "Tue-Sat: 11AM-8PM, Sun: 12PM-8PM, Mon: Closed", "michelin": false, "james_beard": false, "notes": "Family-owned, large 16\" & 20\" pizzas"},
-    {"name": "Pizzeria Locale", "category": "Pizza", "rank": 3, "location": "Various", "city": "Denver", "rating": 4.2, "status": "Open", "hours": "Varies by location", "michelin": false, "james_beard": false, "notes": "Neapolitan-style pizza"},
-    {"name": "Benzina", "category": "Pizza", "rank": 4, "location": "Various", "city": "Denver", "rating": 4.3, "status": "Open", "hours": "Varies by location", "michelin": false, "james_beard": false, "notes": "Wood-fired pizza"},
-    {"name": "Cart-Driver Pizza", "category": "Pizza", "rank": 5, "location": "Various", "city": "Denver", "rating": 4.1, "status": "Open", "hours": "Varies by location", "michelin": false, "james_beard": false, "notes": "Roman-style pizza"},
-    {"name": "Tom's Starlight", "category": "Burgers & Sandwiches", "rank": 1, "location": "601 E Colfax Ave", "city": "Denver", "rating": 4.5, "status": "Open", "hours": "Tue-Thu: 4PM-12AM, Fri: 4PM-1AM, Sat-Sun: Varies", "michelin": false, "james_beard": false, "notes": "Historic diner with large patio"},
-    {"name": "Hopdoddy", "category": "Burgers & Sandwiches", "rank": 2, "location": "Various", "city": "Denver", "rating": 4.3, "status": "Open", "hours": "Varies by location", "michelin": false, "james_beard": false, "notes": "Gourmet burgers"},
-    {"name": "Snarfburger", "category": "Burgers & Sandwiches", "rank": 3, "location": "Various", "city": "Boulder", "rating": 4.4, "status": "Open", "hours": "Varies by location", "michelin": false, "james_beard": false, "notes": "Local Boulder favorite"},
-    {"name": "Hillstone", "category": "New American", "rank": 1, "location": "303 Josephine St", "city": "Denver", "rating": 4.5, "status": "Open", "hours": "Daily: 11:30AM-10PM", "michelin": false, "james_beard": false, "notes": "Upscale American, outdoor patio"},
-    {"name": "The Wolf's Tailor", "category": "New American", "rank": 2, "location": "4058 Tejon St", "city": "Denver", "rating": 4.8, "status": "Open", "hours": "Tue-Sun: 5PM-8:30PM", "michelin": true, "james_beard": false, "notes": "Michelin starred, Green Star, Contemporary cuisine"},
-    {"name": "Tavernetta", "category": "New American", "rank": 3, "location": "1889 Sixteenth St", "city": "Denver", "rating": 4.6, "status": "Open", "hours": "Mon-Fri: 11:30AM-2PM & 5PM-10PM, Sat-Sun: 3PM-10PM", "michelin": "Bib Gourmand", "james_beard": true, "notes": "Michelin Bib Gourmand, Italian-influenced"},
-    {"name": "Post Oak BBQ", "category": "BBQ", "rank": 1, "location": "4000 Tennyson Street", "city": "Denver", "rating": 4.2, "status": "Open", "hours": "Varies", "michelin": false, "james_beard": false, "notes": "Texas-style BBQ"},
-    {"name": "Sushi By Scratch Restaurants", "category": "Japanese", "rank": 1, "location": "1441 Larimer St", "city": "Denver", "rating": 5.0, "status": "Open", "hours": "Wed-Sun: 3 seatings at 5PM, 7:15PM, 9:30PM", "michelin": false, "james_beard": false, "notes": "Omakase, $195/person, Michelin-starred chef"},
-    {"name": "Uchi Denver", "category": "Japanese", "rank": 2, "location": "S*Park", "city": "Denver", "rating": 4.5, "status": "Open", "hours": "Varies", "michelin": false, "james_beard": true, "notes": "James Beard Award-winning"},
-    {"name": "Aloy Modern Thai", "category": "Thai", "rank": 1, "location": "LoDo", "city": "Denver", "rating": 4.3, "status": "Open", "hours": "Varies", "michelin": false, "james_beard": false, "notes": "Farm-to-table, opened 2016"},
-    {"name": "Dan Da", "category": "Vietnamese", "rank": 1, "location": "9945 East Colfax Avenue", "city": "Denver", "rating": 4.7, "status": "Open", "hours": "Wed-Sat: 10AM-8PM, Sun: 11AM-8PM", "michelin": false, "james_beard": false, "notes": "New 2024, former Savory Vietnam chef"},
-    {"name": "Alma Fonda Fina", "category": "Mexican", "rank": 1, "location": "2556 15th St", "city": "Denver", "rating": 4.7, "status": "Open", "hours": "Mon-Thu: 2PM-10PM, Fri: 2PM-11PM, Sat: 4PM-11PM, Sun: 4PM-10PM", "michelin": true, "james_beard": "Semifinalist", "notes": "Michelin starred, Chef Johnny Curiel"},
-    {"name": "Guard and Grace Modern Steakhouse", "category": "Steakhouse", "rank": 1, "location": "1801 California Street", "city": "Denver", "rating": 4.5, "status": "Open", "hours": "Varies", "michelin": "Recommended", "james_beard": false, "notes": "Michelin Guide-Recommended, No. 47 Best Steak World 2024"},
-    {"name": "Champagne Tiger", "category": "French", "rank": 1, "location": "601 E Colfax Ave", "city": "Denver", "rating": 4.7, "status": "Open", "hours": "Wed-Thu: 4:30PM-10PM, Fri: 11AM-3PM & 4:30PM-11PM, Sat: 10AM-11PM, Sun: 10AM-8PM", "michelin": false, "james_beard": false, "notes": "French American diner, drag brunch"},
-    {"name": "Chez Maggy", "category": "French", "rank": 3, "location": "Thompson Hotel", "city": "Denver", "rating": 4.1, "status": "Open", "hours": "Varies", "michelin": true, "james_beard": false, "notes": "Michelin-starred Chef Ludo Lefebvre"},
-    {"name": "Lucy Ethiopian", "category": "Ethiopian", "rank": 1, "location": "7401 E Colfax Ave", "city": "Denver", "rating": 4.4, "status": "Open", "hours": "Varies", "michelin": false, "james_beard": false, "notes": "Authentic Ethiopian, local favorite"},
-    {"name": "Mesob Ethiopian", "category": "Ethiopian", "rank": 2, "location": "1422 Poplar St", "city": "Denver", "rating": 4.3, "status": "Open", "hours": "Mon-Sun: 4PM-11PM", "michelin": false, "james_beard": false, "notes": "Family-owned since 2006, vegan options"},
-    {"name": "Frasca Food and Wine", "category": "Italian", "rank": 1, "location": "1738 Pearl St", "city": "Boulder", "rating": 4.4, "status": "Open", "hours": "Sun-Thu: 5PM-8PM, Fri-Sat: 5PM-9PM", "michelin": true, "james_beard": true, "notes": "Michelin starred, James Beard Award-winning, Friuli region focus"},
-    {"name": "Osaka Ramen", "category": "Japanese", "rank": 0, "location": "2611 Walnut St", "city": "Denver", "rating": 4.0, "status": "CLOSED", "hours": "Closed Feb 23, 2025", "michelin": false, "james_beard": false, "notes": "Closed after 10 years due to high costs"},
-    {"name": "Grabowski's Pizzeria", "category": "Pizza", "rank": 15, "location": "3350 Brighton Blvd", "city": "Denver", "rating": 3.8, "status": "CLOSED", "hours": "Closed Feb 2025", "michelin": false, "james_beard": false, "notes": "Closed after 5 years"}
-  ]
-};
+let restaurantData = { restaurants: [] };
+let allRestaurants = [];
+
+// Load restaurant data from JSON file
+fetch('restaurant_data.json')
+  .then(response => response.json())
+  .then(data => {
+    restaurantData = data;
+    allRestaurants = restaurantData.restaurants;
+    populateCategoryFilter();
+    renderTopRestaurants();
+    updateRestaurantList();
+  })
+  .catch(error => {
+    console.error('Error loading restaurant data:', error);
+  });
 
 // Global variables
 let currentFilters = {
@@ -39,7 +26,6 @@ let currentFilters = {
 };
 
 let currentSort = 'rank';
-let allRestaurants = restaurantData.restaurants;
 
 // Initialize the dashboard
 function initDashboard() {

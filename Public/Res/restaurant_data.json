@@ -1,0 +1,43 @@
+{
+  "restaurants": [
+    {
+      "name": "Blue Pan Pizza",
+      "category": "Pizza",
+      "rank": 1,
+      "location": "3934 W 32nd Ave (West Highland) and 3509 E 12th Ave (Congress Park)",
+      "city": "Denver",
+      "rating": 4.7,
+      "status": "Open",
+      "hours": "West Highland: Mon–Thu 4pm–9pm; Fri–Sat 11am–10pm; Sun 11am–9pm",
+      "michelin": false,
+      "james_beard": false,
+      "notes": "Denver's premier Detroit-style pizzeria"
+    },
+    {
+      "name": "Audrey Jane's Pizza Garage",
+      "category": "Pizza",
+      "rank": 2,
+      "location": "2675 13th St",
+      "city": "Boulder",
+      "rating": 4.6,
+      "status": "Open",
+      "hours": "Mon–Sun 11:00am–8:00pm",
+      "michelin": false,
+      "james_beard": false,
+      "notes": "New York-style pizza"
+    },
+    {
+      "name": "Pizzeria Locale",
+      "category": "Pizza",
+      "rank": 3,
+      "location": "Multiple former Denver locations",
+      "city": "Denver",
+      "rating": 4.5,
+      "status": "CLOSED",
+      "hours": "PERMANENTLY CLOSED",
+      "michelin": false,
+      "james_beard": false,
+      "notes": "All five Denver-area locations closed July 2023. Boulder location still operates."
+    }
+  ]
+} 
