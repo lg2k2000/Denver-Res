@@ -1,0 +1,13 @@
+name = "denver-restaurant-dashboard"
+type = "webpack"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[site]
+bucket = "./Public/Res"
+entry-point = "workers-site"
+
+[build]
+command = "npm run build" 
